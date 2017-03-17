@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/start"
+        android:title="start"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/set"
+        android:title="set"
+        app:showAsAction="always" >
+        <menu>
+            <item
+                android:id="@+id/set1"
+                android:title="set1"
+                app:showAsAction="always" />
+
+            <item
+                android:id="@+id/set2"
+                android:title="set2"
+                app:showAsAction="always" />
+        </menu>
+        </item>
+
+</menu>
