@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.actionbartest.MainActivity">
+
+    <item
+        android:id="@+id/pass"
+        android:title="pass"
+        android:icon="@drawable/test_pass"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/fail"
+        android:title="fail"
+        android:icon="@drawable/test_fail"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/setting"
+        android:title="setting"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/configure"
+        android:title="configure"
+        app:showAsAction="never" />
+
+</menu>
